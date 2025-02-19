@@ -8,16 +8,16 @@ function Header () {
             </figure>
             <nav>
                 <ul>
-                    <li><a href="#">CHARACTER</a></li>
-                    <li className="active"><a href="#">COMICS</a></li>
-                    <li><a href="#">MOVIES</a></li>
-                    <li><a href="#">TV</a></li>
-                    <li><a href="#">GAMES</a></li>
-                    <li><a href="#">COLLECTIBLES</a></li>
-                    <li><a href="#">VIDEOS</a></li>
-                    <li><a href="#">FANS</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    <li className="li-header"><a href="#">CHARACTER</a></li>
+                    <li className="active li-header"><a href="#">COMICS</a></li>
+                    <li className="li-header"><a href="#">MOVIES</a></li>
+                    <li className="li-header"><a href="#">TV</a></li>
+                    <li className="li-header"><a href="#">GAMES</a></li>
+                    <li className="li-header"><a href="#">COLLECTIBLES</a></li>
+                    <li className="li-header"><a href="#">VIDEOS</a></li>
+                    <li className="li-header"><a href="#">FANS</a></li>
+                    <li className="li-header"><a href="#">NEWS</a></li>
+                    <li className="li-header"><a href="#">SHOP</a></li>
                 </ul>
             </nav>
         </div>
