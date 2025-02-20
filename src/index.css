@@ -80,3 +80,28 @@ ul li a:hover{
     width: 40px;
     height: 40px;
 }
+
+#foottop{
+    background: url('./assets/img/footer-bg.jpg');
+}
+
+.container-50{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.ul-footer{
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.bg-logo{
+    background: url('./assets/img/dc-logo-bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#fotbottom{
+    background-color: black;
+}
