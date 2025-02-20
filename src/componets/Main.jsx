@@ -1,9 +1,19 @@
-function Main () {
+import Cards from "./Card";
+
+const Main = (props) => {
     
     return (
     <main>
         <section id="comicstop">
-            <div className="container"></div>
+            <div id="container-top">
+            </div>
+            <div className=" container-bottom">
+                <div className="container-relative">
+                <h3 id="title-container-bottom"> <mark> CURRENT SERIES</mark></h3>
+                <Cards comics={ props.comics }/>
+                <button>LOAD MORE</button>
+                </div>
+            </div>
         </section>
         <section id="comicsbottom">
             <div className="container">

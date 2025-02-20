@@ -57,9 +57,60 @@ ul li a:hover{
     color: blue;
 }
 
-#comicstop{
+#container-top{
+    height: 30vh;
+    background: url('./assets/img/jumbotron.jpg');
+    background-size: cover;
+}
+
+.container-bottom{
     background-color: black;
-    height: 70px;
+    height: 90vh;
+}
+
+.container-relative{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#title-container-bottom{
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+}
+
+#title-container-bottom mark{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+.img-card{
+    width: 120px;
+    height: 120px;
+    margin: 40px 20px 20px 20px; 
+}
+
+.title-card{
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.container-relative button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #comicsbottom{
